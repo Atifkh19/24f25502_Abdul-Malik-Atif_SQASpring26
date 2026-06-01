@@ -1,0 +1,37 @@
+START
+
+INPUT Industry
+INPUT NumberOfJobs
+
+SWITCH (Industry)
+
+CASE "IT":
+    IF NumberOfJobs > 500 THEN
+        DISPLAY "High Demand in IT Sector"
+    ELSE
+        DISPLAY "Moderate Demand in IT Sector"
+    ENDIF
+    BREAK
+
+CASE "Healthcare":
+    IF NumberOfJobs > 300 THEN
+        DISPLAY "High Demand in Healthcare Sector"
+    ELSE
+        DISPLAY "Moderate Demand in Healthcare Sector"
+    ENDIF
+    BREAK
+
+CASE "Engineering":
+    IF NumberOfJobs > 400 THEN
+        DISPLAY "High Demand in Engineering Sector"
+    ELSE
+        DISPLAY "Moderate Demand in Engineering Sector"
+    ENDIF
+    BREAK
+
+DEFAULT:
+    DISPLAY "Industry Not Found"
+
+END SWITCH
+
+STOP
