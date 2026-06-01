@@ -22,10 +22,18 @@ CASE "Healthcare":
     BREAK
 
 CASE "Engineering":
-    IF NumberOfJobs > 400 THEN
+    IF NumberOfJobs > 400 THEN    
         DISPLAY "High Demand in Engineering Sector"
     ELSE
         DISPLAY "Moderate Demand in Engineering Sector"
+    ENDIF
+    BREAK
+
+CASE "Education":
+    IF NumberOfJobs > 200 THEN
+        DISPLAY "High Demand in Education Sector"
+    ELSE
+        DISPLAY "Moderate Demand in Education Sector"
     ENDIF
     BREAK
 
