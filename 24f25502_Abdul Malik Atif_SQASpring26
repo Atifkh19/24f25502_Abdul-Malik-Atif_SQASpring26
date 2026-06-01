@@ -6,7 +6,7 @@ INPUT NumberOfJobs
 SWITCH (Industry)
 
 CASE "IT":
-    IF NumberOfJobs > 500 THEN
+    IF NumberOfJobs > 700 THEN
         DISPLAY "High Demand in IT Sector"
     ELSE
         DISPLAY "Moderate Demand in IT Sector"
